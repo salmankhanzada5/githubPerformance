@@ -19,7 +19,7 @@ jobs:
       - name: Run JMeter Action 1 C4Life
         uses: ./
         with:
-          testFilePath: C4Life.jmx
+          testFilePath: Script/C4Life.jmx
           outputReportsFolder: reports/c4life/
           args: "--loglevel INFO"
 
